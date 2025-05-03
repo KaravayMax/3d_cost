@@ -1,0 +1,42 @@
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  font-family: sans-serif;
+}
+.form-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+.form-section input, .form-section select {
+  padding: 8px;
+  font-size: 14px;
+}
+.result-section {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+}
+.price {
+  color: red;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  text-align: center;
+}
+button {
+  padding: 8px 12px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
